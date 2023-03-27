@@ -40,3 +40,9 @@
 .btn-cart:hover{
     background-color: orange;
 }
+.shoping-cart-logo{
+    margin-left: 5px;
+}
+.shoping-cart-logo:hover{
+    color: orangered;
+}
