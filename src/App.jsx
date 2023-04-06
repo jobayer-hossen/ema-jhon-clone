@@ -1,7 +1,8 @@
 
 import './App.css'
 import Header from './components/Header/Header'
-import Shop from './components/Shop/Shop'
+import Shop from './components/shop/Shop'
+
 
 
 function App() {

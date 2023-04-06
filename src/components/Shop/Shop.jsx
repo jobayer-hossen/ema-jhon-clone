@@ -27,7 +27,8 @@ const Shop = () => {
             
         }
         setCart(savedCart);
-    },[products])
+    },[products]);
+
     const handelCart=(product)=>{
         const newCart = [...cart , product];
         setCart(newCart);
@@ -40,7 +41,7 @@ const Shop = () => {
                     products.map(product => <Product
                     key={product.id}
                     product={product}
-                    habndelCart={handelCart}
+                    handelCart={handelCart}
                     ></Product>)
                 }
             </div>
