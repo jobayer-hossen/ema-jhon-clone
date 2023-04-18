@@ -15,3 +15,10 @@
 .header a:hover{
     color :orange 
 }
+.btn-signOut{
+    margin-left: 15px;
+}
+.text-white{
+    color: white;
+    padding-left: 5px;
+}
